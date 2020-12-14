@@ -3,7 +3,7 @@ package account
 import (
 	"context"
 
-	"github.com/tinrab/spidey/account/pb"
+	"github.com/ausaafnabi/microservice-graphql/EcommerceMicroService/account/pb"
 	"google.golang.org/grpc"
 )
 
