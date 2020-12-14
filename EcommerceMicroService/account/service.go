@@ -1,3 +1,11 @@
+package account
+
+import (
+	"context"
+
+	"github.com/segmentio/ksuid"
+)
+
 type Service interface {
   PostAccount(ctx context.Context, name string) (*Account,error)
   GetAccount(ctx context.Context, id string) (*Account,error)
